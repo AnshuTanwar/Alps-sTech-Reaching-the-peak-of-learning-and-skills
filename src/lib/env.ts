@@ -14,7 +14,9 @@ export const getEnv = (key: string, defaultValue: string = ''): string => {
 
 export const MONGODB_URI = (() => {
   const uri = getEnv('MONGODB_URI');
+  console.log(uri);
   const password = getEnv('MONGODB_PASSWORD');
+  console.log(password);
   
   
   if (uri && !uri.includes('<db_password>')) {
