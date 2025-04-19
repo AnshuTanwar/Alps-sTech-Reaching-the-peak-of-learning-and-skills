@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Features
+## ✨ Features. 
 
 ### 🔐 Authentication
 - Separate login/signup for **Admin** and **Students**
